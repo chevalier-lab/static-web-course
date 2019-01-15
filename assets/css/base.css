@@ -1,7 +1,14 @@
 body{
-    background-color: #efefef;
     font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+
+.white-shade{
+    background: #F6F7F8;
+}
+
+.secondary-text{
+    color: #777777;
 }
 
 .hero-container{
@@ -12,4 +19,41 @@ body{
 .container{
     max-width: 768px;
     margin: 0 auto;
+    text-align: center;
+    padding: 4em 2em;
+}
+
+
+/*Customizing Content Section*/
+.container > h2{
+    margin-bottom: 0;
+}
+.container > p{
+    max-width: 600px;
+    margin: 8px auto;
+    margin-bottom: 16px;
+}
+
+.h2-divider{
+    margin: 0 auto;
+    width: 200px;
+    height: 8px;
+    background: #F2A443;
+    border-radius: 6px;
+}
+
+/*Flexing Grid System*/
+.row{
+    display: flex;
+
+}
+
+.col{
+    flex: 1;
+    margin: 16px;
+}
+
+/*Customizing Service Grid*/
+.service-grid > h3{
+    margin-bottom: 0px;
 }
