@@ -11,6 +11,13 @@ body{
     color: #777777;
 }
 
+.dark {
+    background-color: #333333
+}
+.dark-shade {
+    background-color: #222222;
+}
+
 .hero-container{
     max-width: 1024px;
     margin: 0 auto;
@@ -45,7 +52,6 @@ body{
 /*Flexing Grid System*/
 .row{
     display: flex;
-
 }
 
 .col{
@@ -72,4 +78,46 @@ body{
     text-align: left;
     text-justify: auto;
     padding: 16px;
+}
+
+/* footer */
+footer {
+    color: #fff;
+}
+
+footer img.logo {
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+footer > p {
+    max-width: 500px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+
+footer .row {
+    justify-content: center;
+}
+
+footer .row .col {
+    flex: none;
+    margin: 0 8px;
+}
+
+footer .social img {
+    max-width: 32px;
+    max-height: 32px;
+}
+
+footer .copyright {
+    padding: .85em;
+}
+
+footer .copyright p {
+    margin: 0;
+    text-align: center;
+    font-size: 13px;
 }
